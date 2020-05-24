@@ -18,7 +18,9 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.9",
     "mongoose-paginate": "^5.0.3",
-    "require-dir": "^1.2.0"
+    "require-dir": "^1.2.0",
+    "uuid": "^8.1.0",
+    "uuidv4": "^6.0.9"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

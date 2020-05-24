@@ -1,10 +1,11 @@
 const mongoose = require("mongoose");
 const moongoosePaginate = require("mongoose-paginate");
+const { v4: uuidv4 } = require("uuid");
 
 const ActivitiesSchema = new mongoose.Schema({
   id: {
     type: String,
-    required: true,
+    default: uuidv4(),
   },
   title: {
     type: String,
